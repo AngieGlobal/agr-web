@@ -1,0 +1,8 @@
+<div class="card agr-card agr-card__{{variant}} mx-auto mb-3 shadow {{additionalcls}}">
+    <div class="card-body">
+      <img *ngIf="imagePos ==='top' && image !==''" src="{{renderImage()}}" class="card-img" alt="Card Image">
+      <h5 *ngIf="title !==''" class="card-title">{{title}}</h5>
+      <p *ngIf="desc !==''" class="card-text">{{desc}}</p>
+      <img *ngIf="imagePos ==='bottom' && image !==''" src="{{renderImage()}}" class="card-img" alt="Card Image">
+    </div>
+</div>

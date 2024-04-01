@@ -1,0 +1,21 @@
+.agr-hero{
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 6rem 4rem;
+    &__lg{
+        min-height: 700px;
+    }
+    &__md{
+        min-height: 500px;
+    }
+    &__sm{
+        min-height: 350px;
+    }
+    &__bg-size-cover{
+        background-size: cover;
+    }
+    &__bg-size-contain{
+        background-size: contain;
+    }
+}

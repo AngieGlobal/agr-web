@@ -1,0 +1,27 @@
+.agr-university-deck{
+    & .card-body{
+        background-repeat: no-repeat;
+        &__xcircle{
+            background-image: url('../../assets/icons/x-circle.png');
+            background-position-x: -65px;
+            background-position-y:-48px;
+        }
+        &__footprint{
+            background-image: url('../../assets/icons/footprints.png');
+            background-position-x: -10px;
+            background-position-y:-5px;
+        }
+        &__handcoins{
+            background-image: url('../../assets/icons/hand-coins.png');
+            background-position-x: -18px;
+            background-position-y:-10px;
+        }
+        & > .card-text{
+            margin-left:7rem;
+            margin-top: 3rem;
+            color:#333;
+            width:170px;
+            opacity: 0.8;
+        }
+    }
+}
