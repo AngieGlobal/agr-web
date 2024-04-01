@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/footer/footer.component.scss"],
+  "sourcesContent": [".agr-footer{\n  background-color:#333;\n  min-height: 380px;\n  color:#fff;\n  padding:5rem 4rem;\n  &__bit{\n    color: #BDBDBD;\n    font-weight: 400;\n    text-decoration: none;\n  }\n}"],
+  "mappings": ";AAAA,CAAA;AACE,oBAAA;AACA,cAAA;AACA,SAAA;AACA,WAAA,KAAA;;AACA,CAAA;AACE,SAAA;AACA,eAAA;AACA,mBAAA;;",
+  "names": []
+}
