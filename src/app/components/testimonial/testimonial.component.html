@@ -1,0 +1,17 @@
+<div class="card agr-testimonial shadow">
+  <div class="card-body agr-testimonial__content">
+    <div class="agr-testimonial__content-top">
+      <div>
+        <img *ngIf="avatar !== ''" [src]="avatar" [alt]="name">
+      </div>
+      <div class="text-start user-info">
+        <p class="fw-bolder" *ngIf="name !==''">{{name}}</p>
+        <div class="smaller-font" *ngIf="title !==''">{{title}}</div>
+        <p class="smaller-font" *ngIf="location !==''">{{location}}</p>
+      </div>
+    </div>
+    <div class="agr-testimonial__content-bottom px-4 pb-1 pt-3">
+      <p class="smaller-font" *ngIf="text !==''">{{text}}</p>
+    </div>
+  </div>
+</div>

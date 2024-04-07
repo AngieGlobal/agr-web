@@ -1,0 +1,26 @@
+.agr-testimonial{
+  border-radius: 50px 10px 10px 10px;
+  min-height: 281px;
+  &__content{
+    &-top{
+      & .user-info{
+        margin-left: 110px;
+      }
+      & > div{
+        position:relative;
+        & > img{
+          position: absolute;
+          top: -17px;
+          left: -16px;
+
+        }
+      }
+    }
+    &-bottom{
+      line-height: normal;
+    }
+  }
+  & .smaller-font{
+    font-size:14px;
+  }
+}
