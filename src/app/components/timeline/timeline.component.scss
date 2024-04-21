@@ -1,3 +1,35 @@
-:host {
-  display: block;
+.agr-timeline{
+  max-width: 940px;
+  &__left{
+    width: 420px;
+    min-height: 280px;
+  }
+  &__right{
+    width: 420px;
+    min-height: 280px;
+  }
+  &__pillar{
+    &-primary{
+      background-color:#FFE200;
+    }
+    &-secondary{
+      background-color:#FFAC00;
+    }
+    &-tertiary{
+      background-color:#40A5B4;
+    }
+    &-num{
+      width:48px;
+      height: 48px;
+      background-color:#fff;
+      border-color: #fff;
+      span{
+        font-size: 32px;
+        font-weight: 700;
+      }
+    }
+    min-height: 280px;
+    width: 48px;
+    border-radius: 24px;
+  }
 }
