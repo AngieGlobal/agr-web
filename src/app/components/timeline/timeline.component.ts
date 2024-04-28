@@ -17,4 +17,7 @@ export class TimelineComponent {
 
   @Input()
   number = 1;
+
+  @Input()
+  endsymbol = '';
 }

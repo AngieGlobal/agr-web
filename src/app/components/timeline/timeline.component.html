@@ -2,9 +2,12 @@
   <div class="agr-timeline__left pe-4 text-end">
     <ng-content select="[left]"></ng-content>
   </div>
-  <div class="agr-timeline__pillar agr-timeline__pillar-{{variant}} ">
+  <div class="agr-timeline__pillar d-flex flex-column align-items-start agr-timeline__pillar-{{variant}} ">
     <div class="agr-timeline__pillar-num rounded-5 text-center">
       <span>{{number}}</span>
+    </div>
+    <div *ngIf="endsymbol !==''" class="agr-timeline__pillar-num agr-timeline__pillar-num-symbol rounded-5 text-center mt-auto">
+      <span>{{endsymbol}}</span>
     </div>
   </div>
   <div class="agr-timeline__right ps-4 text-start">
