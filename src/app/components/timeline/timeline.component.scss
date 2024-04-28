@@ -33,3 +33,15 @@
     border-radius: 24px;
   }
 }
+
+@include media-breakpoint-down(md){
+  .agr-timeline {
+    min-height: 450px;
+    &__left{
+      width:250px
+    }
+    &__right{
+      width:250px
+    }
+  }
+}

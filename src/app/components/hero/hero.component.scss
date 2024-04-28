@@ -3,6 +3,18 @@
     background-repeat: no-repeat;
     width: 100%;
     padding: 6rem 4rem;
+    &.bg-info{
+      background-color: #3983C4;
+    }
+    &.bg-primary{
+      background-color:#FFD53E;
+    }
+    &.bg-warning-subtle{
+      background-color: #F3EDD7;
+    }
+    &.bg-about{
+      background: linear-gradient(90deg, #FDBB00 0%, rgba(123, 100, 44, 0.78) 21.9%, rgba(55, 51, 51, 0.67) 32.4%, #008DA2 100%);
+    }
     &__lg{
         min-height: 700px;
     }
