@@ -1,0 +1,16 @@
+.about-us{
+  &__card{
+    bottom: 150px;
+    width:85%;
+    padding: 70px 132px 114px 101px;
+  }
+  &__team{
+    .team__main-portfilio{
+      &-lead{
+        width:192px;
+        height:auto;
+      }
+    }
+  }
+}
+
