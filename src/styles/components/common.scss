@@ -8,6 +8,15 @@
   box-shadow: 0px 4px 25px 0px #000;
   position: relative;
   border: none;
+  &:hover{
+    background-color: #008DA2;
+  }
+  &__invert{
+    background-color: #fff;
+    &:hover{
+      background-color:#fff;
+    }
+  }
 }
 .hero-text{
   min-width: 598px;

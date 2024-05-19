@@ -30,7 +30,7 @@ export class HeroComponent implements OnInit {
   additionalcls = '';
 
   ngOnInit(): void {
-  } 
+  }
 
   renderInlineStyles(){
     if(this.bgimage && this.bgimage !==''){

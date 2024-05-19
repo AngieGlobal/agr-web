@@ -30,7 +30,8 @@
               "src/assets",
               "src/offers",
               "src/learning.html",
-              "src/about.html"
+              "src/about.html",
+              "src/mortgage.html"
             ],
             "styles": [
               "node_modules/bootstrap-icons/font/bootstrap-icons.min.css",
