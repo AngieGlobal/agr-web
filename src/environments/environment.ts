@@ -1,5 +1,5 @@
 export const environment = {
     isProd: true,
-    domain: 'https://angieglobal.github.io',
-    logo:'https://angieglobal.github.io/assets/images/logo.png'
+    domain: 'https://www.angieglobalrealty.com',
+    logo:'https://www.angieglobalrealty.com/assets/images/logo.png'
 };

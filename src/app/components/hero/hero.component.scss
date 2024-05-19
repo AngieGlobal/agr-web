@@ -1,8 +1,9 @@
 .agr-hero{
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     width: 100%;
     padding: 6rem 4rem;
+    background-size:cover;
     &.bg-info{
       background-color: #3983C4;
     }
@@ -29,5 +30,8 @@
     }
     &__bg-size-contain{
         background-size: contain;
+    }
+    & .hero-text{
+      max-width: 600px;
     }
 }
