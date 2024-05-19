@@ -1,5 +1,5 @@
 export const environment = {
     isProd: true,
-    domain: 'https://www.angieglobalrealty.com',
-    logo:'https://www.angieglobalrealty.com/assets/images/logo.png'
+    domain: 'http://www.angieglobalrealty.com',
+    logo:'http://www.angieglobalrealty.com/assets/images/logo.png'
 };
