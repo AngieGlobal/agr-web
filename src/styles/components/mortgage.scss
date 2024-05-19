@@ -1,0 +1,16 @@
+.bg-mortgage{
+  background-blend-mode: multiply;
+  background-color:#008DA2;
+}
+
+.service-callout{
+  &__finance{
+    max-width: 980px;
+  }
+  &__refinance{
+    max-width: 1100px;
+    & .description{
+      max-width:600px;
+    }
+  }
+}
