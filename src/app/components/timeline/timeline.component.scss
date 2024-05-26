@@ -2,11 +2,29 @@
   max-width: 940px;
   &__left{
     width: 420px;
+    @include agr-media-sm{
+      max-width:150px;
+    }
     min-height: 280px;
+    & svg{
+      max-width:200px;
+      @include agr-media-sm{
+        max-width:150px;
+      }
+    }
   }
   &__right{
     width: 420px;
+    @include agr-media-sm{
+      max-width: 150px;
+    }
     min-height: 280px;
+    & svg{
+      max-width:200px;
+      @include agr-media-sm{
+        max-width:150px;
+      }
+    }
   }
   &__pillar{
     &-primary{
@@ -21,27 +39,21 @@
     &-num{
       width:48px;
       height: 48px;
+      @include agr-media-sm{
+        width:24px;
+        height: 24px;
+      }
       background-color:#fff;
       border-color: #fff;
       span{
         font-size: 32px;
+        @include agr-media-sm{
+          font-size: 16px
+        }
         font-weight: 700;
       }
     }
     min-height: 280px;
-    width: 48px;
     border-radius: 24px;
-  }
-}
-
-@include media-breakpoint-down(md){
-  .agr-timeline {
-    min-height: 450px;
-    &__left{
-      width:250px
-    }
-    &__right{
-      width:250px
-    }
   }
 }

@@ -8,6 +8,7 @@ import { createCustomElement } from '@angular/elements';
 import { IconboxComponent } from './app/components/iconbox/iconbox.component';
 import { FooterComponent } from './app/components/footer/footer.component';
 import { TestimonialComponent } from './app/components/testimonial/testimonial.component';
+import { VideoComponent } from './app/components/video/video.component';
 
 
 (async () =>{
@@ -19,6 +20,7 @@ import { TestimonialComponent } from './app/components/testimonial/testimonial.c
   const iconbox = createCustomElement(IconboxComponent,{injector:app.injector});
   const footer = createCustomElement(FooterComponent,{injector:app.injector});
   const testimonial = createCustomElement(TestimonialComponent, {injector:app.injector});
+  const video = createCustomElement(VideoComponent,{injector:app.injector});
   customElements.define('agr-hero',hero);
   customElements.define('agr-timeline',timeline);
   customElements.define('agr-card',card);
@@ -26,6 +28,7 @@ import { TestimonialComponent } from './app/components/testimonial/testimonial.c
   customElements.define('agr-iconbox',iconbox);
   customElements.define('agr-footer',footer);
   customElements.define('agr-testimonial',testimonial);
+  customElements.define('agr-video',video);
 })();
 
 /*
