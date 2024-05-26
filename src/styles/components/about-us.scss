@@ -3,6 +3,9 @@
     bottom: 150px;
     width:85%;
     padding: 70px 132px 114px 101px;
+    @include agr-media-sm{
+      padding:1rem;
+    }
   }
   &__team{
     .team__main-portfilio{
