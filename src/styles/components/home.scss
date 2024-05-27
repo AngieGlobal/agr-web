@@ -38,6 +38,9 @@
             opacity: 0.8;
         }
     }
+    @include agr-media-sm{
+      background-size: cover !important;
+    }
 }
 .bg-primary__light{
   background-color: #ffd53e33;
