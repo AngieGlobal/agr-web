@@ -22,3 +22,11 @@
 .callout__img{
   max-width:477px;
 }
+
+nav.agr-nav{
+  & .nav-item{
+    & a:hover{
+      box-shadow: inset 0 -2px 0 0 #FFD53E;
+    }
+  }
+}
