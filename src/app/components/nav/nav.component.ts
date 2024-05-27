@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, ViewEncapsulation, type OnInit } from '@angular/core';
 import { environment } from '../../../environments/environment';
-
+import { NavigationItem, structure } from './navigation-item';
 @Component({
   selector: 'agr-nav',
   standalone: true,
@@ -14,8 +14,14 @@ import { environment } from '../../../environments/environment';
   encapsulation: ViewEncapsulation.None
 })
 export class NavComponent implements OnInit {
+  navigation: NavigationItem[] = structure;
 
-  ngOnInit(): void { }
+  ngOnInit(): void {
+    const pathName = location.pathname;
+    if(pathName){
+      this.navigation.map(item=> item.isActive = item.url ===pathName);
+    }
+   }
 
   renderLogo(){
     return environment.logo;

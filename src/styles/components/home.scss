@@ -1,3 +1,17 @@
+.home-hero__main{
+  &-img{
+    max-width: 500px;
+    @include agr-media-sm{
+      max-width: 350px;
+    }
+  }
+  & h1{
+    @include agr-media-sm{
+      text-align: center;
+    }
+  }
+}
+
 .agr-university-deck{
     & .card-body{
         background-repeat: no-repeat;
