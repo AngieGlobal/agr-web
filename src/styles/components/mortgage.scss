@@ -26,3 +26,15 @@
   font-size:20px;
   font-weight:700;
 }
+.orange-path__img{
+  max-width: 500px;
+  @include agr-media-sm{
+    max-width: 350px;
+  }
+}
+.edu__img{
+  max-width: 500px;
+  @include agr-media-sm{
+    max-width: 350px;
+  }
+}
