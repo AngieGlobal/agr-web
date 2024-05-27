@@ -12,17 +12,17 @@
               <li [ngClass]="{'nav-item':true,'px-3':true,'dropdown':nav.hasChildren}"
               *ngFor="let nav of navigation">
                 <a *ngIf="nav.hasChildren"
-                class="nav-link dropdown-toggle fw-bold" href="#"
+                class="nav-link dropdown-toggle fw-medium" href="#"
                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   {{nav.title}}
                 </a>
                 <ul *ngIf="nav.hasChildren" class="dropdown-menu">
                   <li *ngFor="let sub of nav.children">
-                    <a [ngClass]="{'dropdown-item':true,'fw-bold':true,'active':sub.isActive}" [href]="sub.url">{{sub.title}}</a>
+                    <a [ngClass]="{'dropdown-item':true,'fw-medium':true,'active':sub.isActive}" [href]="sub.url">{{sub.title}}</a>
                   </li>
                 </ul>
                 <a *ngIf="!nav.hasChildren"
-                [ngClass]="{'nav-link':true, 'fw-bold':true,'active':nav.isActive}"
+                [ngClass]="{'nav-link':true, 'fw-medium':true,'active':nav.isActive}"
                 [href]="nav.url">{{nav.title}}</a>
               </li>
               <li class="nav-item px-3">
