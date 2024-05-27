@@ -3,6 +3,9 @@
   min-height: 380px;
   color:#fff;
   padding:5rem 4rem;
+  @include agr-media-sm{
+    padding: 1.5rem;
+  }
   &__bit{
     color: #BDBDBD;
     font-weight: 400;

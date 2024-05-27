@@ -8,7 +8,6 @@ import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/
     CommonModule,
   ],
   templateUrl: './footer.component.html',
-  styleUrl: './footer.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
   encapsulation: ViewEncapsulation.None,
 })

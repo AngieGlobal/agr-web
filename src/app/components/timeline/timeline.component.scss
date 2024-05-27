@@ -4,6 +4,7 @@
     width: 420px;
     @include agr-media-sm{
       max-width:150px;
+      width:150px;
     }
     min-height: 280px;
     & svg{
@@ -17,6 +18,7 @@
     width: 420px;
     @include agr-media-sm{
       max-width: 150px;
+      width:150px;
     }
     min-height: 280px;
     & svg{
