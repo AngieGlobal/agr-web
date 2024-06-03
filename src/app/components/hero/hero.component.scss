@@ -3,6 +3,9 @@
     background-repeat: no-repeat;
     width: 100%;
     padding: 6rem 4rem;
+    @include agr-media-sm{
+      padding:2rem;
+    }
     background-size:cover;
     &.bg-info{
       background-color: #3983C4;
